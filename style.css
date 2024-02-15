@@ -1,0 +1,180 @@
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(to right, #141314, #7f7796);
+  color: #fff;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Playfair Display", serif;
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-right: auto;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  transition: color 0.3s ease, font-size 0.3s ease;
+}
+
+.logo:hover {
+  color: #c0c0c0;
+  font-size: 30px;
+}
+
+nav {
+  margin-left: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #c0c0c0;
+}
+
+.hero {
+  background: linear-gradient(to right, #141314, #7f7796);
+  color: #fff;
+  padding: 120px 0;
+  text-align: center;
+  position: relative;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content h1 {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 24px;
+  font-style: italic;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.hero-content img {
+  object-fit: contain;
+  width: 600px;
+  height: 600px;
+}
+
+.about {
+  background-color: #000000;
+  color: #fff;
+  padding: 100px 0;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.about-text {
+  max-width: 500px;
+  text-align: center;
+}
+
+.about-text h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.about-image {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 5px solid #00ffff;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+}
+
+.about-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Media Query for screens with a minimum width of 1281 pixels */
+@media only screen and (min-width: 1281px) {
+  /* Add styles for screens with a width of 1281px or larger */
+}
+
+/* Media Query for screens with a width between 1025px and 1280px */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  /* Add styles for screens with a width between 1025px and 1280px */
+}
+
+/* Media Query for screens with a width between 768px and 1024px */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Add styles for screens with a width between 768px and 1024px */
+}
+
+/* Media Query for screens with a width between 768px and 1024px in landscape orientation */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* Add styles for screens with a width between 768px and 1024px in landscape orientation */
+}
+
+/* Media Query for screens with a width between 481px and 767px */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  header {
+    padding: 20px 10px; /* Adjust padding for smaller screens */
+  }
+}
+
+/* Media Query for screens with a width between 320px and 480px */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+}
