@@ -5,7 +5,7 @@ ul {
 }
 
 header {
-  background: linear-gradient(to right, #141314, #7f7796);
+  background: linear-gradient(to right, #000000, #090e11);
   color: #fff;
   padding: 20px 40px;
   display: flex;
@@ -60,15 +60,16 @@ nav ul li a:hover {
 .hero {
   background: linear-gradient(
     to right,
-    #667db6,
-    #0d2a3a,
-    #0d2a3a,
-    #19192e
+    #000000,
+    #04080a,
+    #04080a,
+    #000000
   ); 
   color: #fff; 
   padding: 100px 0;
   text-align: center;
   position: relative;
+  height: 110vh;
 }
 
 .hero-content {
