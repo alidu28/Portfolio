@@ -101,15 +101,60 @@ nav ul li a:hover {
     nav ul li {
         margin: 0 10px; /* Adding margin around navigation items */
     }
+
+    .hero {
+        padding: 80px 20px; /* Adjusting padding for larger screens */
+    }
+
+    .hero-content {
+        flex-basis: 50%; /* Half width on larger screens */
+        margin-right: 40px; /* Adding more space between content and image */
+    }
+
+    .hero-image {
+        flex-basis: 50%; /* Half width on larger screens */
+    }
 }
 
 
 
 
+/* Hero Section Styles */
 .hero {
     background-color: #f2f2f2;
-    padding: 50px 0;
-    text-align: center;
+    padding: 100px 20px;
+    display: flex;
+    flex-wrap: wrap; /* Allowing items to wrap on smaller screens */
+    align-items: center;
+}
+
+.hero-content {
+    flex-basis: 100%; /* Full width on smaller screens */
+    max-width: 600px;
+    margin-bottom: 20px; /* Adding margin between content and image */
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.hero-image {
+    flex-basis: 100%; /* Full width on smaller screens */
+    text-align: center; /* Centering the image */
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
 }
 
 footer {
